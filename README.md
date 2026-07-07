@@ -1,65 +1,171 @@
 # 🚀 ISP Platform ERP
 
-## Enterprise SaaS Platform for Internet Service Providers
+### Enterprise SaaS Platform for Internet Service Providers
 
-A modern multi-tenant ERP platform designed for Internet Service Providers.
-
-This repository is a **public technical showcase** created for portfolio and recruitment purposes.
-
-It documents the architecture, features and engineering decisions behind the project without exposing proprietary production source code.
+![Status](https://img.shields.io/badge/Status-Active%20Development-success)
+![License](https://img.shields.io/badge/License-Documentation%20Only-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Multi--Tenant-orange)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
 
 ---
 
-# 🌍 Overview
+## 📌 Overview
 
-ISP Platform ERP centralizes every major ISP operation into a single web platform.
+ISP Platform ERP is an enterprise-grade SaaS platform developed to automate and centralize the daily operations of Internet Service Providers (ISPs).
 
-Main objectives include:
+The platform integrates customer management, billing, network automation, MikroTik RouterOS management, PPPoE synchronization, RADIUS authentication, reporting and financial administration into a single scalable solution.
 
-- Customer Management
-- Automated Billing
-- MikroTik Integration
-- PPPoE Provisioning
-- RADIUS Authentication
+This repository is a **technical showcase** intended for portfolio and recruitment purposes.
+
+No proprietary production source code is included.
+
+---
+
+## 🌟 Key Features
+
+- Multi-Tenant SaaS Architecture
+- Customer Relationship Management (CRM)
+- Billing & Invoicing
 - Payment Management
-- Reports
-- Multi-Tenant SaaS
+- MikroTik Router Management
+- PPPoE Profile Synchronization
+- RADIUS Authentication
+- Service Suspension Automation
+- Automatic Cron Processing
+- Multi Router Support
+- Financial Reports
+- Administrative Dashboard
+- Role-Based Access Control (RBAC)
+- RESTful API
+- Audit Logs
+- Email Notifications
 
 ---
 
-# 🛠 Technology Stack
+## 🏗 Solution Architecture
 
-## Frontend
+```text
+                        Internet
+
+                           │
+
+                   Cloudflare CDN
+
+                           │
+
+                    React Frontend
+
+                           │
+
+                     REST API (JWT)
+
+                           │
+
+                   Node.js + Express
+
+                           │
+
+                     PostgreSQL DB
+
+            ┌──────────────┴──────────────┐
+
+     MikroTik RouterOS             RADIUS Server
+
+            │
+
+     PPPoE Customers
+```
+
+---
+
+## 💻 Technology Stack
+
+### Frontend
 
 - React
 - TypeScript
 - Vite
+- Tailwind CSS
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
+- JWT Authentication
+- REST APIs
 
-## Database
+### Database
 
 - PostgreSQL
 
-## Infrastructure
+### Infrastructure
 
-- Linux
+- Ubuntu Server
+- Nginx
 - Cloudflare
+- GitHub
+
+### Networking
+
 - MikroTik RouterOS
+- PPPoE
+- RADIUS
 
 ---
 
-# 📌 Current Status
+## 📂 Documentation
 
-✔ Active Development
+- Architecture
+- Modules
+- Database Design
+- REST API
+- Deployment
+- Security
+- Roadmap
 
 ---
 
-# 📄 License
+## 🎯 Current Status
 
-Documentation Only
+✅ Active Development
 
-No production source code is included.
+Current focus:
+
+- Multi Router Synchronization
+- Payment Gateway Integration
+- Cron Improvements
+- Service Suspension Automation
+
+---
+
+## 🔒 Security
+
+- JWT Authentication
+- Role Based Access Control
+- Password Hashing
+- HTTPS
+- Cloudflare Protection
+- Audit Logging
+- API Validation
+
+---
+
+## 👨‍💻 Lead Developer
+
+Juan Antonio De León Godoy
+
+Senior Full Stack Software Engineer
+
+Software Architect
+
+Telecommunications & Cloud Solutions Specialist
+
+---
+
+## 📄 License
+
+This repository contains documentation only.
+
+No production source code is distributed.
