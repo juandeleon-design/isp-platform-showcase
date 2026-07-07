@@ -1,15 +1,65 @@
 # 🚀 ISP Platform ERP
 
-### Enterprise SaaS Platform for Internet Service Providers
+## Enterprise SaaS Platform for Internet Service Providers
 
-A modern multi-tenant ERP platform designed to automate ISP operations including billing, customer management, MikroTik integration, PPPoE provisioning, RADIUS authentication and reporting.
+A modern multi-tenant ERP platform designed for Internet Service Providers.
+
+This repository is a **public technical showcase** created for portfolio and recruitment purposes.
+
+It documents the architecture, features and engineering decisions behind the project without exposing proprietary production source code.
 
 ---
 
-## 🌍 Project Overview
+# 🌍 Overview
 
-ISP Platform ERP is a cloud-ready enterprise platform developed to simplify and automate the daily operations of Internet Service Providers.
+ISP Platform ERP centralizes every major ISP operation into a single web platform.
 
-The platform combines customer management, automated billing, MikroTik RouterOS integration, authentication services and reporting into a single scalable solution.
+Main objectives include:
 
-This repository is intended as a public technical showcase and does not include proprietary production source code.
+- Customer Management
+- Automated Billing
+- MikroTik Integration
+- PPPoE Provisioning
+- RADIUS Authentication
+- Payment Management
+- Reports
+- Multi-Tenant SaaS
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Vite
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- PostgreSQL
+
+## Infrastructure
+
+- Linux
+- Cloudflare
+- MikroTik RouterOS
+
+---
+
+# 📌 Current Status
+
+✔ Active Development
+
+---
+
+# 📄 License
+
+Documentation Only
+
+No production source code is included.
