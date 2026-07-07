@@ -1,20 +1,15 @@
-## 🚀 Featured Projects
+# 🚀 ISP Platform ERP
 
-### ISP Platform ERP
-Enterprise SaaS ERP for Internet Service Providers.
+### Enterprise SaaS Platform for Internet Service Providers
 
-➡️ https://github.com/juandeleon-design/isp-platform-showcase
-
----
-
-### CompartamosLaBiblia.org
-Platform for online biblical studies and content management.
-
-➡️ https://github.com/juandeleon-design/compartamoslabiblia-showcase
+A modern multi-tenant ERP platform designed to automate ISP operations including billing, customer management, MikroTik integration, PPPoE provisioning, RADIUS authentication and reporting.
 
 ---
 
-### MikroTik Automation
-Educational examples of RouterOS integration with Node.js.
+## 🌍 Project Overview
 
-➡️ https://github.com/juandeleon-design/mikrotik-nodejs-api
+ISP Platform ERP is a cloud-ready enterprise platform developed to simplify and automate the daily operations of Internet Service Providers.
+
+The platform combines customer management, automated billing, MikroTik RouterOS integration, authentication services and reporting into a single scalable solution.
+
+This repository is intended as a public technical showcase and does not include proprietary production source code.
