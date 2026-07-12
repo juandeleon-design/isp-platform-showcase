@@ -1,5 +1,18 @@
-## 1️⃣ System Architecture
+<p align="center">
+  <img src="assets/banner.png" alt="ISP Platform ERP Banner">
+</p>
+## 📑 Table of Contents
 
+- Overview
+- Key Features
+- Architecture
+- Technical Documentation
+- Engineering Diagrams
+- Technology Stack
+- Security
+- Roadmap
+- Lead Developer
+## 1️⃣ System Architecture
 ![System Architecture](diagrams/01-system-architecture.png)
 
 ---
